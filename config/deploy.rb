@@ -2,7 +2,8 @@
 lock "3.8.1"
 
 set :application, "rails102"
-set :repo_url, "git@github.com:xiaoguaishou01/rails101-2.git"
+set :repo_url, "git@github.com:xiaoguaishou01/rails-101-2.git"
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
