@@ -8,7 +8,6 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
-gem 'pg'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -50,8 +49,9 @@ group :development do
   gem "capistrano-rails"
 end
 
-
-
+group :production do
+  gem 'pg'
+end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
