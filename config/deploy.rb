@@ -5,7 +5,7 @@ set :application, "rails102"
 set :repo_url, "git@github.com:xiaoguaishou01/rails-101-2.git"
 
 
-# Default branch is :master
+ Default branch is :ch08
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
