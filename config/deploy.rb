@@ -10,7 +10,7 @@ set :repo_url, "git@github.com:xiaoguaishou01/rails-101-2.git"
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
-set :deploy_to, '/home/apps/rails103'
+set :deploy_to, '/home/apps/rails102'
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
