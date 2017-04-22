@@ -11,11 +11,11 @@ class PostsController < ApplicationController
         @post.group = @group
         @post.user = current_user
 
-          if @post.save
+        if @post.save
             redirect_to group_path(@group)
-          else
+        else
             render :new
-            end
+        end
       end
 
       def edit
